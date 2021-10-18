@@ -1,0 +1,25 @@
+
+
+-------------------------------------------
+
+id (Primary_key [indice]) - intero - mediumint - autoincremento
+telaio - stringa - VARCHAR(17)  - NOTNULL - Unique
+tipo_veicolo - stringa - VARCHAR(20)  - NOTNULL
+marca - stringa - VARCHAR(20) - NOTNULL
+modello  - stringa - VARCHAR(15) - NOTNULL
+colore - stringa - VARCHAR(15) - NOTNULL
+alimentazione - - stringa - VARCHAR(15) - NOTNULL
+targa - stringa - VARCHAR(7) - NOTNULL - Unique
+accessori  - stringa - VARCHAR(100) - NULL
+cavalli - intero - smallint - NOTNULL
+chilometraggio - intero -mediumint - NOTNULL
+data_uscita - data - date - NOTNULL
+immatricolazione - data - dateTime - NOTNULL
+prezzo - float - (9,2)  - NOTNULL
+disponibile - boolean - tinyint - NOTNULL
+valutazione -  intero -  tinyint - NULL
+N_acquistate - intero - smallint
+N_vendute - intero -smallint
+
+
+
